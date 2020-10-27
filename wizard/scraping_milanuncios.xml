@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="scraping_milanuncios_view" model="ir.ui.view">
+        <field name="name">scraping.milanuncios.view</field>
+        <field name="model">scraping.milanuncios</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="search_ad"/>
+                   
+                </group>
+                
+                <footer>
+                    <button name="create_products" string="Ad to Product" type="object"
+                        class="oe_highlight" />
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_scraping_milanuncios" model="ir.actions.act_window">
+        <field name="name">Scraping Milanuncios</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">scraping.milanuncios</field>
+       
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="scraping_milanuncios_view"/>
+        <field name="target">new</field>
+    </record>
+
+
+    <menuitem name="Milanuncios" id="menu_load_root" parent='sale.sale_menu_root' sequence='3' action="action_scraping_milanuncios"/>
+   
+        
+</odoo>

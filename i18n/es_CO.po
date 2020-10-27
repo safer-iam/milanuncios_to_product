@@ -1,0 +1,838 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* woocommerce_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20190920\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-15 14:59+0000\n"
+"PO-Revision-Date: 2020-09-15 11:49-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4\n"
+"Last-Translator: \n"
+"Language: es_CO\n"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Default Fields Load Sales</span>"
+msgstr "<span class=\"o_form_label\">Campos por defecto</span>"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Woocommerce Connetion Values</span>"
+msgstr "<span class=\"o_form_label\">Valores de conexión de Woocommerce</span>"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "<span class=\"o_stat_text\">All background</span>"
+msgstr "<span class=\"o_stat_text\">Ejecutar todos segundo plano</span>"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "<span class=\"o_stat_text\">Next Lot</span>"
+msgstr "<span class=\"o_stat_text\">Siguiente Lote</span>"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid ""
+"A rounding per line is advised if your prices are tax-included. That way, "
+"the sum of line subtotals equals the total with taxes."
+msgstr ""
+"Se recomienda un redondeo por línea si sus precios incluyen impuestos. De "
+"esa forma, la suma de los subtotales de las líneas es igual al total con los "
+"impuestos."
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_res_company
+msgid "Companies"
+msgstr "Compañias"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__consumer_key
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__consumer_key
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Consumer Key"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__consumer_secret
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__consumer_secret
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Consumer Secret"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/stock.py:25
+#, python-format
+msgid ""
+"Could not reserve all requested products. Please use the 'Mark as Todo' "
+"button to handle the reservation manually."
+msgstr ""
+"No se pudieron reservar todos los productos solicitados. Utilice el botón "
+"\"Marcar como Todo\" para gestionar la reserva manualmente."
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__create_uid
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__create_uid
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__create_date
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__create_date
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Cutoff Date"
+msgstr "Fecha de Corte"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__cutoff_date
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__cutoff_date
+msgid "Cutoff date"
+msgstr "Fecha de Corte"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:157
+#, python-format
+msgid "Cutoff date not configured"
+msgstr "Fecha de Corte no configurada"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__sales_confirm_date_end
+msgid "Datetime End confirm sales Odoo"
+msgstr "Fecha y hora Fin confirma ventas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__invoices_create_date_end
+msgid "Datetime End create Invoices Odoo"
+msgstr "Fecha de finalización creación facturas"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__create_sales_date_end
+msgid "Datetime End create sales Odoo"
+msgstr "Fecha de finalización creación ventas"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__load_orders_woocommerce_date_end
+msgid "Datetime End load orders of woocommerce"
+msgstr "Fecha de finalización creación pedidos"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__sales_confirm_date_start
+msgid "Datetime Start confirm sales Odoo"
+msgstr "Fecha de inicio confirmación de ventas"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__invoices_create_date_start
+msgid "Datetime Start create Invoices Odoo"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__create_sales_date_start
+msgid "Datetime Start create sales Odoo"
+msgstr "Fecha de inicio creacion de ventas"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__load_orders_woocommerce_date_start
+msgid "Datetime Start load orders of woocommerce"
+msgstr "Fecha de inicio carga de pedidos"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Default fields applied to load sales of Woocommerce"
+msgstr "Campos predeterminados aplicados para cargar ventas de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__display_name
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__display_name
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__display_name
+msgid "Display Name"
+msgstr "Nombre para Mostrar"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Download Orders"
+msgstr "Descargar pedidos"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,state:0 selection:woocommerce.order.load,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_form
+msgid "Error"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__filter_date_end
+msgid "Filter date end"
+msgstr "Fecha de finalización del filtro"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__filter_date_start
+msgid "Filter date start"
+msgstr "Fecha de inicio del filtro"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__query_string_auth
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__query_string_auth
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Force Basic Authentication"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_res_company__query_string_auth
+#: model:ir.model.fields,help:woocommerce_connector.field_res_config_settings__query_string_auth
+msgid ""
+"Force Basic Authentication as query string when True and using under HTTPS, "
+"default is False"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.actions.server,name:woocommerce_connector.model_stock_picking_action_validate
+msgid "Force Validation"
+msgstr "Forzar validación"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,type_order:0
+msgid "Gift"
+msgstr "Regalo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__hour_finally_cron
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__hour_finally_cron
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Hour finally cron process, format 24 hours"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__id
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__id
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__id
+msgid "ID"
+msgstr ""
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,state:0 selection:woocommerce.order.load,state:0
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Linea de Factura"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order.py:103
+#, python-format
+msgid "Invoice value is greater than the total of the woocommerce order"
+msgstr "El valor de la factura es mayor que el total del pedido de woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_product_product__kit_ok
+#: model:ir.model.fields,field_description:woocommerce_connector.field_product_template__kit_ok
+msgid "Is Kit"
+msgstr "Es Kit"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_form
+msgid "Json Order"
+msgstr "Pedido Json"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_woocommerce_order__name
+msgid "Key order id"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_woocommerce_order_load__order_lines
+msgid "Key order woocommerce= order_key"
+msgstr ""
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,type_order:0
+msgid "Kit"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit____last_update
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order____last_update
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__write_uid
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__write_uid
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__write_date
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__write_date
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_form
+msgid "Load Json"
+msgstr "Descargar Json"
+
+#. module: woocommerce_connector
+#: model:ir.ui.menu,name:woocommerce_connector.menu_woocommerce_orders_load
+msgid "Load orders"
+msgstr "Cargar Pedidos"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__log_error
+msgid "Log Error"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__sales_confirm_minutes
+msgid "Minutes in confirm sales Odoo"
+msgstr "Minutos en confirmar ventas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__invoices_create_minutes
+msgid "Minutes in create Invoices Odoo"
+msgstr "Minutos en crear facturas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__create_sales_minutes
+msgid "Minutes in create sales Odoo"
+msgstr "Minutos en crear ventas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__load_orders_woocommerce_minutes
+msgid "Minutes in load orders Woocommerce"
+msgstr "Minutos en pedidos de carga Woocommerce"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,type_order:0
+msgid "Mixed"
+msgstr "Mixto"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:93
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,type_order:0
+msgid "Normal"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Number Orders per Lot"
+msgstr "Número de pedidos por lote"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__number_orders_per_lot
+msgid "Number orders per Lot"
+msgstr "Número de pedidos por lote"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__number_orders_per_lot
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__number_orders_per_lot
+msgid "Number orders per lot"
+msgstr "Número de pedidos por lote"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__number_orders_per_page
+msgid "Number orders per page"
+msgstr "Número de pedidos por pagina"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__number_orders_per_page
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__number_orders_per_page
+msgid "Number orders per pagine"
+msgstr "Número de pedidos por pagina"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/company.py:44
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:107
+#, python-format
+msgid "Number orders per pagine between 1 to 100"
+msgstr "Número de pedidos por página entre 1 y 100"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__numbers_download_orders
+msgid "Numbers Download Orders"
+msgstr "Pedidos de descarga de números"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__numbers_orders_not_invoice
+msgid "Numbers Orders not invoice"
+msgstr "Números Pedidos no facturados"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Order Lines"
+msgstr "Líneas de pedido"
+
+#. module: woocommerce_connector
+#: model:ir.ui.menu,name:woocommerce_connector.menu_woocommerce_order
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__order_lines
+msgid "Orders load"
+msgstr "Carga de pedidos"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,state:0
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__parent_id
+msgid "Parent"
+msgstr "Padre"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/company.py:32
+#, python-format
+msgid ""
+"Please define the fields required for WooCommerce API.\n"
+" For more information, see README.rst"
+msgstr ""
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/company.py:7
+#: code:addons/woocommerce_connector/models/stock.py:7
+#, python-format
+msgid "Please execute 'pip3 install woocommerce'"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__price
+msgid "Price"
+msgstr "Precio"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_products_in_kit__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de Producto"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order.py:216
+#, python-format
+msgid "Product is kit, but not have products configured"
+msgstr "El producto está en kit, pero no tiene productos configurados"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/product.py:21
+#, python-format
+msgid "Product not valid"
+msgstr "Producto no válido"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.product_template_form_view
+msgid "Products in Kit"
+msgstr "Productos son Kit"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_product_product__products_in_kit
+#: model:ir.model.fields,field_description:woocommerce_connector.field_product_template__products_in_kit
+msgid "Products in kit"
+msgstr "Productos son Kit"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_account_invoice_line__quantity_product_free
+#: model:ir.model.fields,field_description:woocommerce_connector.field_sale_order_line__quantity_product_free
+msgid "Quantity Products Free"
+msgstr "Cantidad de productos gratis"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,state:0 selection:woocommerce.order.load,state:0
+msgid "Sale"
+msgstr "Venta"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_sale_order
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__sale_order_id
+msgid "Sale Order"
+msgstr "Orden de venta"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_sale_order_line
+msgid "Sales Order Line"
+msgstr ""
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,state:0 selection:woocommerce.order.load,state:0
+msgid "Save"
+msgstr "Guardar"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Seconds"
+msgstr "Segundos"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__load_orders_woocommerce_seconds
+msgid "Seconds Download Orders woocommerce"
+msgstr "Segundos Descargar pedidos woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__sales_confirm_seconds
+msgid "Seconds in confirm sales Odoo"
+msgstr "Segundos en confirmar ventas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__invoices_create_seconds
+msgid "Seconds in create Invoices Odoo"
+msgstr "Segundos en crear facturas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__create_sales_seconds
+msgid "Seconds in create sales Odoo"
+msgstr "Segundos en crear facturas Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__state
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__state
+msgid "State"
+msgstr "Estado"
+
+#. module: woocommerce_connector
+#: selection:woocommerce.order,state:0 selection:woocommerce.order.load,state:0
+msgid "Stock"
+msgstr "Inventario"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__taxes_id_woocommerce_orders_load
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__taxes_id_woocommerce_orders_load
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__taxes_id
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "These taxes are set in any new product created."
+msgstr "Estos impuestos se establecen en cualquier producto nuevo creado."
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Times"
+msgstr "Tiempos"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.product_template_form_view
+msgid "Total"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__total
+msgid "Total order"
+msgstr "Total Pedido"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__total_pages_results
+msgid "Total pages results"
+msgstr "Resultados totales de páginas"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:125
+#, python-format
+msgid "Total pages results = , numbers download orders = "
+msgstr ""
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Total time in Confirm and Picking orders Odoo"
+msgstr "Tiempo total en Confirmar y Picking pedidos Odoo"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Total time in create invoices Odoo"
+msgstr "Tiempo total en crear facturas Odoo"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Total time in create orders Odoo"
+msgstr "Tiempo total en crear pedidos Odoo"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Total time in load orders from Woocommerce"
+msgstr "Tiempo total en pedidos de carga de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__type_order
+msgid "Type Order"
+msgstr "Orden de tipo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__user_id_woocommerce_orders_load
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__user_id_woocommerce_orders_load
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__user_id
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "User"
+msgstr "Usuario"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__version
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__version
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Version"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order_load__warnings
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Warnings"
+msgstr "Advertencias"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_sale_order__woocommerce_order_id
+msgid "Wocoomerce Order Id"
+msgstr "ID de pedido de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_sale_order_line__woocommerce_order_line_id
+msgid "Wocoomerce Order Line Id"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_partner__woocommerce_customer_id
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_users__woocommerce_customer_id
+msgid "Wocoomerce customer Id"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.ui.menu,name:woocommerce_connector.menu_woocommerce
+msgid "WooCommerce"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__url
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__url
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "WooCommerce URL"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.view_order_form_inherit_woocommerce
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.view_picking_form_woocommerce
+msgid "Woocommerce"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "Woocommerce Configuration"
+msgstr "Configuración de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.actions.server,name:woocommerce_connector.ir_cron_woocommerce_download_orders_ir_actions_server
+#: model:ir.cron,cron_name:woocommerce_connector.ir_cron_woocommerce_download_orders
+#: model:ir.cron,name:woocommerce_connector.ir_cron_woocommerce_download_orders
+msgid "Woocommerce Download Orders"
+msgstr "Pedidos de descarga de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__json_order
+msgid "Woocommerce Order Json"
+msgstr "Orden de Woocommerce Json"
+
+#. module: woocommerce_connector
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.woocommerce_order_load_form
+msgid "Woocommerce Order Lines"
+msgstr "Líneas de pedido de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_stock_picking__woocommerce_shipping
+msgid "Woocommerce Shipping"
+msgstr "Envío de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__date_completed
+msgid "Woocommerce date_completed"
+msgstr "Fecha de completado Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__date_created
+msgid "Woocommerce date_created"
+msgstr "Fecha de creado en Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__woocommerce_order_id
+msgid "Woocommerce id"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__name
+msgid "Woocommerce name"
+msgstr "Numero Pedido Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__number
+msgid "Woocommerce number"
+msgstr "Número de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_woocommerce_order__woocommerce_order_load_id
+msgid "Woocommerce order load id"
+msgstr "ID de carga de pedido de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.actions.act_window,name:woocommerce_connector.action_woocommerce_order
+msgid "Woocommerce orders"
+msgstr "Pedidos de Woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.actions.act_window,name:woocommerce_connector.action_woocommerce_order_load
+msgid "Woocommerce orders load"
+msgstr "Woocommerce orders load"
+
+#. module: woocommerce_connector
+#: model:ir.actions.server,name:woocommerce_connector.ir_cron_woocommerce_process_x_lot_ir_actions_server
+#: model:ir.cron,cron_name:woocommerce_connector.ir_cron_woocommerce_process_x_lot
+#: model:ir.cron,name:woocommerce_connector.ir_cron_woocommerce_process_x_lot
+msgid "Woocommerce process x lot"
+msgstr "Proceso de Woocommerce x lote"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:85
+#, python-format
+msgid ""
+"You cannot delete this Woocommerce Sale Load with state different to draft "
+"or save"
+msgstr ""
+"No puede eliminar esta carga de venta de Woocommerce con un estado diferente "
+"al borrador o guardar"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order.py:39
+#, python-format
+msgid "You cannot delete this Woocommerce Sale is associated with an Odoo sale"
+msgstr ""
+"No puede eliminar esta venta de Woocommerce asociada con una venta de Odoo"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_res_company__url
+#: model:ir.model.fields,help:woocommerce_connector.field_res_config_settings__url
+msgid "Your Store URL, example: http://woo.dev/"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_res_company__consumer_key
+#: model:ir.model.fields,help:woocommerce_connector.field_res_config_settings__consumer_key
+msgid "Your WooCommerce API consumer key"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_res_company__consumer_secret
+#: model:ir.model.fields,help:woocommerce_connector.field_res_config_settings__consumer_secret
+msgid "Your WooCommerce API consumer secret"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_woocommerce_order__woocommerce_order_load_id
+msgid "batch from where woocommerce sales load was run"
+msgstr "lote desde donde se ejecutó la carga de ventas de woocommerce"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_company__cron_to_invoice_all_load_orders_state_save
+#: model:ir.model.fields,field_description:woocommerce_connector.field_res_config_settings__cron_to_invoice_all_load_orders_state_save
+#: model_terms:ir.ui.view,arch_db:woocommerce_connector.res_config_settings_view_form
+msgid "cron to invoice all load orders state save"
+msgstr "cron para facturar todas las órdenes de carga estado guardar"
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:501
+#, python-format
+msgid "cron_download_orders exist_filter_date_start"
+msgstr ""
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:526
+#, python-format
+msgid "cron_to_invoice_all_load_orders_state_save is ACTIVE"
+msgstr ""
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:607
+#, python-format
+msgid "next_lot_thread finally"
+msgstr ""
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:590
+#, python-format
+msgid "next_lot_thread start name: "
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_products_in_kit
+msgid "products.in.kit"
+msgstr ""
+
+#. module: woocommerce_connector
+#: code:addons/woocommerce_connector/models/woocommerce_order_load.py:109
+#, python-format
+msgid "start date must be less than end date"
+msgstr "la fecha de inicio debe ser menor que la fecha de finalización"
+
+#. module: woocommerce_connector
+#: model:ir.model.fields,help:woocommerce_connector.field_res_company__cron_to_invoice_all_load_orders_state_save
+#: model:ir.model.fields,help:woocommerce_connector.field_res_config_settings__cron_to_invoice_all_load_orders_state_save
+msgid ""
+"when executing the cron it converts to invoices all the load templates that "
+"have saved status"
+msgstr ""
+"al ejecutar el cron convierte en facturas todas las plantillas de carga que "
+"tienen estado guardado"
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_woocommerce_order
+msgid "woocommerce.order"
+msgstr ""
+
+#. module: woocommerce_connector
+#: model:ir.model,name:woocommerce_connector.model_woocommerce_order_load
+msgid "woocommerce.order.load"
+msgstr ""
